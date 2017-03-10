@@ -1,0 +1,72 @@
+body{background-color:#eee8e0; font-size: 2vw;}
+
+
+#contenedor{ margin:auto;
+height:100%; width:80%;
+
+display:none;
+
+
+}
+
+
+
+
+.preguntas{background-color:#8FC0A9; margin:auto;
+height:20%; border-radius:30px;
+padding-left:10%;
+
+
+}
+
+
+#myform{
+	width: 50%;
+	margin:10%;
+	position: absolute;
+	padding: 2%;
+	left: 13%;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+#divUsuario{ background-color:#68B0AB; margin:auto; border-radius:30px; padding-left:2%;
+width: 25%;
+
+}
+
+
+
+
+#resultado{
+	background-color:#A6C08F; float:left; border-radius:30px; padding-left:2%;
+	width:22%; position:fixed; bottom:0; z-index:1; display:none;
+	
+}
+
+
+
+
+#nombre{margin-left:8%;}
+
+#apellidos{margin-left:3%;}
+
+
+
+
+
+
+#logo{top:0; position:absolute; width:10%; z-index:0}
+
+
+
+
+
