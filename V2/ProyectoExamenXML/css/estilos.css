@@ -1,0 +1,46 @@
+body{background-color:#CCC;}
+
+
+#contenedor{background-color:#339999; margin:auto;
+height:100%; width:80%;
+
+
+}
+
+
+
+
+.preguntas{background-color:#6C9; margin:auto;
+height:20%; border-radius:30px;
+padding-left:20%;
+
+
+}
+
+
+#myform{
+	background: aliceblue;
+	width: 50%;
+	margin:10%;
+	position: absolute;
+	padding: 2%;
+	left: 13%;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
