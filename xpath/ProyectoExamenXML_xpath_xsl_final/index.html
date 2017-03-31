@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Examenes </title>
+        <meta name="description" content=" Examenes de distintos tipos ">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" media="screen and (min-width: 601px)" href="css/pc.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="css/movil.css">
+		<script src="js/js.js"></script>
+	</head>
+	<body>
+    	<img src="imgs/fin.png" id="logo"/>
+    
+    
+    
+    
+    
+    
+    
+    	<div id="divUsuario">
+        	<form id="userDats"><br/>
+            	
+            	<label for="nombre" >Nombre</label>
+            	<input type="text"  id="nombre">  <br/>
+             	
+                <label for="apellidos" id="lApelli2" >Apellidos</label>
+            	<input type="text"  id="apellidos">
+                
+                
+                
+                
+                <br/><br/>
+           
+                
+                
+                
+            	
+                
+                
+             
+                
+                
+            	<input type="button" id="boton" value="Enviar" onClick="user();">
+            </form>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+		<div id="contenedor">
+			<form id="myform">
+            	
+                <div class="preguntas" id="p1">
+                 <h3 id="pregunta_1"></h3>
+ 				<div id="divPregunta1"></div>
+                </div>
+                
+                
+                 <div class="preguntas" id="p2">
+                <h3 id="pregunta_2"></h3>
+ 				<div id="divPregunta2"></div>
+                </div>
+                
+                
+                <div class="preguntas" id="p3">
+                <h3 id="pregunta_3"></h3>
+ 				<div id="divPregunta3"></div>
+                </div>
+                
+                <div class="preguntas" id="p4">
+                <h3 id="pregunta_4"></h3>
+ 				<div id="divPregunta4"></div>
+                </div>
+                
+                <div class="preguntas" id="p5">
+                <h3 id="pregunta_5"></h3>
+ 				<div id="divPregunta5"></div>
+                </div>
+
+
+                <div class="preguntas" id="p6">
+                <h3 id="pregunta_6"></h3>
+ 				<div id="divPregunta6"></div>
+                </div>
+                
+                <div class="preguntas" id="p7">
+                <h3 id="pregunta_7"></h3>
+ 				<div id="divPregunta7"></div>
+                </div>
+                
+               
+                
+                
+                <div class="preguntas" id="p8">
+                <h3 id="pregunta_8"></h3>
+ 				<div id="divPregunta8"></div>
+                </div>
+                
+                
+                
+                <div class="preguntas" id="p9">
+                <h3 id="pregunta_9"></h3>
+ 				<div id="divPregunta9"></div>
+                </div>
+                
+                
+                <div class="preguntas" id="p10">
+                <h3 id="pregunta_10"></h3>
+ 				<div id="divPregunta10"></div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+          
+                
+                
+                
+                
+                <br/>
+       
+                
+                
+                
+				<input type="button"  id="corregir" value="Corregir" onClick="camposRellenados();" />
+			</form>
+            
+		</div>
+        
+        <div id="resultado" onClick="escondeResultados();"></div>
+        
+        <div id="resultadosDiv" onClick="refresh();"><h5 id="textoCabeza">Clicka o toca la tabla para rehacer el examen</h5></div>
+        
+        
+	</body>
+</html>
